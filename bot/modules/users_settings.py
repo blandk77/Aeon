@@ -146,7 +146,7 @@ Leech Caption is <code>{escape(lcap)}</code>
 User session id {usess}
 User dump <code>{udump}</code>
 Thumbnail Layout is <b>{thumb_layout}</b>
-
+<a href="https://t.me/The_TGguy">𝑩𝒐𝒕 𝑩𝒚 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒖𝒚!!</a>
 """
     elif stype == "rclone":
         buttons.data_button("Rclone Config", f"userset {user_id} menu RCLONE_CONFIG")
@@ -311,7 +311,7 @@ Excluded Extensions is <code>{ex_ex}</code>
 YT-DLP Options is <code>{ytopt}</code>
 FFMPEG Commands is <code>{ffc}</code>
 Metadata is <code>{mdt}</code>
-Watermark text is <code>{wmt}</code>"""
+<a href="https://t.me/The_TGguy">𝑩𝒐𝒕 𝑩𝒚 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒖𝒚!!</a>"""
 
     return text, buttons.build_menu(2), thumbnail
 
