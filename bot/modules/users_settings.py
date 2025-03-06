@@ -30,7 +30,7 @@ from bot.helper.telegram_helper.message_utils import (
 )
 
 handler_dict = {}
-no_thumb = "https://graph.org/file/73ae908d18c6b38038071.jpg"
+no_thumb = "https://files.catbox.moe/lllex3.jpg"
 
 leech_options = [
     "THUMBNAIL",
@@ -146,6 +146,7 @@ Leech Caption is <code>{escape(lcap)}</code>
 User session id {usess}
 User dump <code>{udump}</code>
 Thumbnail Layout is <b>{thumb_layout}</b>
+
 """
     elif stype == "rclone":
         buttons.data_button("Rclone Config", f"userset {user_id} menu RCLONE_CONFIG")
