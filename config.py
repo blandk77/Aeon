@@ -8,7 +8,7 @@ TELEGRAM_HASH = "96985c2aaea6c75408528909b7e18879"
 DATABASE_URL = "mongodb+srv://telegramguy21:tnkIwvbNkJ5U3fZ7@botsuse.bpgag.mongodb.net/?retryWrites=true&w=majority&appName=Botsuse"
 
 # OPTIONAL CONFIG
-TG_PROXY = {"scheme": "MTProto", "server": "43.135.177.135", "port": 13001, "secret": ""}
+TG_PROXY = {"scheme": "socks5", "hostname": "139.59.24.173", "port": 1080, "username": ”user”, "password": ”pass”}
 USER_SESSION_STRING = ""
 DOWNLOAD_DIR = "/usr/src/app/downloads/"
 CMD_SUFFIX = ""
